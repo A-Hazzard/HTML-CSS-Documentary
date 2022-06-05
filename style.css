@@ -1,0 +1,83 @@
+
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-color: rgb(227, 231, 235);
+        color: black;
+      }
+
+      #main-header{
+        position: fixed;
+        height: 100%;
+        width: 15%;
+        background-color: rgb(227, 231, 235);lue;
+        color: black;
+        border-right: 2px solid black;
+      }
+
+      h1{
+          font-size: 20px;
+          text-align: center;
+          padding: 5%;
+          font-family: 'Courier New', Courier, monospace;
+      }
+
+      #nav-links li{
+          padding: 5%;
+      }
+
+      article{
+          margin-left: 18%;
+          position: relative;
+          top: 20px;
+          width: 75%;
+      }
+
+      #Introduction{
+          height: 150px;
+      }
+
+      .title{
+          font-size: 30px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      section{
+          margin-bottom: 1em;
+      }
+
+      section:nth-child(1){
+          margin-bottom: -1em;
+      }
+
+    section p{
+        margin: .5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 20px;
+        letter-spacing: .6px;
+    }
+     section p, section ul{
+       
+        font-size: 13.5px;
+      }
+
+      section ul li{
+          padding-left: 1em;
+          padding-bottom: .5em;
+      }
+
+      code{
+          background-color: rgba(203, 211, 218, 0.56);
+          padding: 1mm;
+          display: block;
+          margin: 5px 17px auto;
+      }
+
+
+      section span{
+          margin-top: 10px;
+          margin-left: 15px;
+          display: block;
+      }
