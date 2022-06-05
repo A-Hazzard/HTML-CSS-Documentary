@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="https://miro.medium.com/max/1400/1*lJ32Bl-lHWmNMUSiSq17gQ.png">
+    <title>HTML/CSS Documentary</title>
    
 </head>
 <body>
@@ -17,15 +18,21 @@
 
 <nav>
   <ul id="nav-links">
-    <li>Introduction</li>
+    <li><a href="#Introduction">Introduction</a></li>
     <hr>
-    <li>Course Outline</li>
+    <li><a href="#Course_Outline">Course Outline</a></li>
     <hr>
-    <li>What is HTML?</li>
+    <li><a href="#What_is_HTML">What is HTML?</a></li>
     <hr>
-    <li>Variables</li>
+    <li><a href="#Variables">Variables</a></li>
     <hr>
-    <li>Hello World</li>
+    <li><a href="#DOCTYPE">DOCTYPE</a></li>
+    <hr>
+    <li><a href="#HTML_TAG">HTML Tag</a></li>
+    <hr>
+    <li><a href="#HEAD_TAG">HEAD Tag</a></li>
+    <hr>
+    <li><a href="#TITLE_TAG">TITLE tag</a></li>
     <hr>
   </ul>
 </nav>
@@ -89,7 +96,48 @@
     <code>
       &lt/html&gt
     </code>
+    <span>Your code should like like this:</span>
+    <code>
+      &lt!DOCTYPE html&gt<br>
+      &lthtml&gt<br><br>
+      &lt/html&gt
+    </code>
   </section>
+
+  <section class="main-section" id="HEAD_TAG">
+    <header class="title">HEAD TAG</header>
+    <p>The head tag is a tag that contains metadata. MetaData is data that is used to describe and give information about the website. A few examples are, The website title, relationship references between different files, etc... In this course we wont be getting into detail about the head, however you will give your website a <strong>title</strong>  </p>
+     <span>Setup your head tag in the middle of your html tags:</span>
+     <code>
+      
+       &lt!DOCTYPE html&gt<br>
+       &lthtml&gt<br>
+       &ensp;&lthead&gt<br>
+       &ensp;&lt/head&gt<br>
+       &lt/html&gt
+     </code>
+     <div class="main-section" id="TITLE_TAG" style="margin-top: 1em;">
+      <h2 class="title" style="font-weight: normal;">TITLE TAG</h2>
+      <p>If you look to the top of this/ any webpage you would notice in the tab there is a name for the website and an icon that describes the name of the website. This tag is pretty self explanitory, it gives your website it's title which can be found above in tab section as shown below.</p>
+      <img src="icon.png" alt="icon" width="25%" height="32px" style="margin-left: 1em;">
+      <br><br>
+      Give your website a title with the <code>&lttitle&gt &lt/title&gt</code> tag
+      <br><br>
+      <code>
+        &lt!DOCTYPE html&gt<br>
+        &lthtml&gt<br>
+        &ensp;&lthead&gt<br>
+        &emsp;&emsp;&lttitle&gt<strong>Title Name</strong>&lt/title&gt<br>
+        &ensp;&lt/head&gt<br>
+        &lt/html&gt
+      </code>
+    </div>
+  </section>
+
+  <section class="main-section"></section>
+  <section class="main-section"></section>
+  <section class="main-section"></section>
+  <section class="main-section"></section>>
 
 
 
@@ -103,6 +151,10 @@
 </html>
 
 
-
+<!--INSET TAB SPACES
+Regular space: &nbsp;
+Two spaces gap: &ensp;
+Four spaces gap: &emsp;
+-->
 
 
