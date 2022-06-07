@@ -6,33 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://miro.medium.com/max/1400/1*lJ32Bl-lHWmNMUSiSq17gQ.png">
-    <title>HTML/CSS Documentary</title>
+    <title>HTML Documentary</title>
    
 </head>
 <body>
 
   <main id="main-doc">
-<header id="main-header">
-  <h1>HTML/CSS Documentary</h1>
-  <hr>
 
-<nav>
+  
+
+
+
+<nav id="navbar">
+  <header id="main-header">
+  <h1>HTML Documentary</h1>
+  <hr>
   <ul id="nav-links">
-    <li><a href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
     <hr>
-    <li><a href="#Course_Outline">Course Outline</a></li>
+    <li><a class="nav-link" href="#Course_Outline">Course Outline</a></li>
     <hr>
-    <li><a href="#What_is_HTML">What is HTML?</a></li>
+    <li><a class="nav-link" href="#What_is_HTML">What is HTML?</a></li>
     <hr>
-    <li><a href="#Variables">Variables</a></li>
+    <li><a class="nav-link" href="#Variables">Variables</a></li>
     <hr>
-    <li><a href="#DOCTYPE">DOCTYPE</a></li>
+    <li><a class="nav-link" href="#DOCTYPE">DOCTYPE</a></li>
     <hr>
-    <li><a href="#HTML_TAG">HTML Tag</a></li>
+    <li><a class="nav-link" href="#HTML_TAG">HTML Tag</a></li>
     <hr>
-    <li><a href="#HEAD_TAG">HEAD Tag</a></li>
+    <li><a class="nav-link" href="#HEAD_TAG">HEAD Tag</a></li>
     <hr>
-    <li><a href="#TITLE_TAG">TITLE tag</a></li>
+    <li><a class="nav-link" href="#BODY_TAG">BODY tag</a></li>
     <hr>
   </ul>
 </nav>
@@ -42,7 +46,7 @@
 
   <section class="main-section" id="Introduction">
     <header class="title">Introduction</header>
-    <p>Throughout this documentary, you would learn the fundamentals on Web Development. More Specifically, you would learn how to structure and design your own web-site from html and css; The languages used for Web-Design.</p>
+    <p>Throughout this documentary, you would learn the fundamentals on Web Development. More Specifically, you would learn how to structure and design your own web-site from html; The languages used for Web-Design.</p>
     
     <ul>
       <li>Html - HyperText Markup Language</li>
@@ -58,8 +62,6 @@
        <li class="outline code">DOCTYPE tag</li>
        <li class="outline">html tag</li>
        <li class="outline">head tag</li>
-       <li class="outline">meta tag</li>
-       <li class="outline">link tag</li>
        <li class="outline">title tag</li>
        <li class="outline">body tag</li>
      </ul>
@@ -116,10 +118,10 @@
        &ensp;&lt/head&gt<br>
        &lt/html&gt
      </code>
-     <div class="main-section" id="TITLE_TAG" style="margin-top: 1em;">
-      <h2 class="title" style="font-weight: normal;">TITLE TAG</h2>
+     <div class="secondary-section" id="TITLE_TAG" style="margin-top: 1em;">
+      <header class="title" style="font-weight: normal;">TITLE TAG</header>
       <p>If you look to the top of this/ any webpage you would notice in the tab there is a name for the website and an icon that describes the name of the website. This tag is pretty self explanitory, it gives your website it's title which can be found above in tab section as shown below.</p>
-      <img src="icon.png" alt="icon" width="25%" height="32px" style="margin-left: 1em;">
+      <img src="https://www.practicalecommerce.com/wp-content/uploads/images/0002/0503/1-shows-tabs.jpg" alt="icon" width="40%" height="100px" style="margin-left: 1em;">
       <br><br>
       Give your website a title with the <code>&lttitle&gt &lt/title&gt</code> tag
       <br><br>
@@ -134,18 +136,30 @@
     </div>
   </section>
 
-  <section class="main-section"></section>
-  <section class="main-section"></section>
-  <section class="main-section"></section>
-  <section class="main-section"></section>>
+  <section class="main-section" id="BODY_TAG">
+    <header class="title">BODY TAG</header>
+    <p>This is the area in the document where all of the magic happens. The <strong>body</strong> tag is used for the main content - What the user will be visually seeing, this is where the text of website is made, images, videos, audio, templates etc...</p>
 
+    <span>Lets create your body tags followed by a paragraph tag to output some text to the screen</span><br>
 
-
-
+    <code>
+      &lt!DOCTYPE html&gt<br>
+      &lthtml&gt<br>
+      &ensp;&lthead&gt<br>
+      &emsp;&emsp;&lttitle&gt<strong>Title Name</strong>&lt/title&gt<br>
+      &emsp;&emsp;&ltbody&gt<br>
+      &emsp;&emsp;&emsp;&ltp&gt<p id="p-example">This is a paragraph</p>&lt/p&gt<br>
+      &emsp;&emsp;&lt/body&gt<br>
+      &ensp;&lt/head&gt<br>
+      &lt/html&gt
+    </code>
+  </section>
 </article>
   </main>
 
-
+<footer>
+  
+</footer>
  
   </body>
 </html>
